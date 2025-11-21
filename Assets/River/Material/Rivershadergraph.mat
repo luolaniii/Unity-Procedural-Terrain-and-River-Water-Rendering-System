@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-1351502980991992992
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 9
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Rivershadergraph
+  m_Shader: {fileID: -6465566751694194690, guid: 43755e9167458d048aefd0141bb388bd, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _FoamNoiseTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Fresnel:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Pebble_Albodo:
+        m_Texture: {fileID: 2800000, guid: acee20cd55a2cde42a315153361e0cfc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Pebble_Height:
+        m_Texture: {fileID: 2800000, guid: 17dcff0ed0f334c409ad3bd6cc51eee0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Pebble_Normal:
+        m_Texture: {fileID: 2800000, guid: b5f0efee9cd3b424d9cd5bc7e1737019, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Water_Height:
+        m_Texture: {fileID: 2800000, guid: a59cee0ab15cdb84383fab3686c8dd09, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Water_Normal:
+        m_Texture: {fileID: 2800000, guid: 08c6c8d771570564baee695c64b1c975, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _DistortAmount: 100
+    - _FoamFade: 1
+    - _Foam_Softness: 0.18
+    - _Parallax_Amount: -0.4
+    - _Pebble_Depth: 6.15
+    - _Pebble_Normal_Strength: 1
+    - _Pebble_Offset: -0.6
+    - _Pebble_Size: 4.6
+    - _Pebble_Smoothness: 0.752
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _Refraction_Strength: 2.17
+    - _SDF_Multi: 3.72
+    - _Smooth_Blend: 2.73
+    - _Water_Deform_From_Height: 3.2
+    - _Water_Depth: 2.23
+    - _Water_Normal_Strength: 18.25
+    - _Water_Offset: -2.3
+    - _Water_Size: 13.9
+    - _Water_Smoothness: 1
+    m_Colors:
+    - _Water_Speed: {r: 0, g: -0.5, b: 0, a: 0}
+    - _Water_Tint: {r: 0.51257855, g: 0.7783667, b: 1, a: 0}
+    - _WaveSpeed: {r: 0.5, g: 0.5, b: -0.5, a: -0.5}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
